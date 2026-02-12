@@ -20,7 +20,7 @@ export default function RecipeCard({ recipe }: Props) {
   return (
     <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition p-4 flex flex-col">
       
-      <Link href={`/recipe/${recipe.id}`} className="overflow-hidden rounded-lg">
+      <Link href={`/recipes/${recipe.id}`} className="overflow-hidden rounded-lg">
         <img
           src={recipe.image} 
           alt={recipe.name}
